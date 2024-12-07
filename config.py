@@ -10,29 +10,29 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7883089544:AAFTaRV7nFoHKadCQCWPiLiQQy74b53Pxc8")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "27358729"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "6910fe5c69fb5fb2214162099ffe526c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002157247664"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7795988203"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://susantamusic:susantabhan@cluster0.5pwi1py.mongodb.net/?retryWrites=true&w=majority"
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = "mongodb+srv://rlfigjy:<76PkjwlyEwEmIKZw>@cluster0.mtil9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = os.environ.get("DATABASE_NAME", "rlfigjy")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "moneycase.link")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "710b7ed8fdc5f89e9036000cc10121921e7732f1")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "331e0dd5d34da886206ca525b5d111eaa713d13b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
