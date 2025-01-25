@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "27358729"))
 API_HASH = os.environ.get("API_HASH", "6910fe5c69fb5fb2214162099ffe526c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002157247664"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "--1002291006612"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7795988203"))
@@ -39,7 +39,7 @@ TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002382240026"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002196895532"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
